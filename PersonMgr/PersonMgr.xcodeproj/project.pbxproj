@@ -16,6 +16,8 @@
 		AC5625B51E65C06B00BD93EC /* PersonMgrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5625B41E65C06B00BD93EC /* PersonMgrUITests.swift */; };
 		AC5625C31E65C0C700BD93EC /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5625C21E65C0C700BD93EC /* Person.swift */; };
 		AC5625C71E65C51300BD93EC /* PersonTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5625C61E65C51300BD93EC /* PersonTVC.swift */; };
+		AC5625C91E65D93F00BD93EC /* PersonDetailedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5625C81E65D93F00BD93EC /* PersonDetailedVC.swift */; };
+		AC5625CB1E65E32100BD93EC /* ViewController45.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5625CA1E65E32100BD93EC /* ViewController45.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		AC5625B61E65C06B00BD93EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC5625C21E65C0C700BD93EC /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		AC5625C61E65C51300BD93EC /* PersonTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTVC.swift; sourceTree = "<group>"; };
+		AC5625C81E65D93F00BD93EC /* PersonDetailedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonDetailedVC.swift; sourceTree = "<group>"; };
+		AC5625CA1E65E32100BD93EC /* ViewController45.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController45.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				AC5625A01E65C06B00BD93EC /* Info.plist */,
 				AC5625C21E65C0C700BD93EC /* Person.swift */,
 				AC5625C61E65C51300BD93EC /* PersonTVC.swift */,
+				AC5625C81E65D93F00BD93EC /* PersonDetailedVC.swift */,
+				AC5625CA1E65E32100BD93EC /* ViewController45.swift */,
 			);
 			path = PersonMgr;
 			sourceTree = "<group>";
@@ -266,9 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC5625C31E65C0C700BD93EC /* Person.swift in Sources */,
+				AC5625C91E65D93F00BD93EC /* PersonDetailedVC.swift in Sources */,
 				AC5625971E65C06B00BD93EC /* ViewController.swift in Sources */,
 				AC5625C71E65C51300BD93EC /* PersonTVC.swift in Sources */,
 				AC5625951E65C06B00BD93EC /* AppDelegate.swift in Sources */,
+				AC5625CB1E65E32100BD93EC /* ViewController45.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

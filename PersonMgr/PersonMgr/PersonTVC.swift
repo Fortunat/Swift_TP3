@@ -9,6 +9,7 @@
 import UIKit
 
 class PersonTVC: UITableViewController {
+    
  var tabPerson = [Person]()
     
     override func viewDidLoad() {
@@ -101,6 +102,7 @@ class PersonTVC: UITableViewController {
         
     }
     
+    
 
     /*
     // Override to support conditional rearranging of the table view.
@@ -110,14 +112,26 @@ class PersonTVC: UITableViewController {
     }
     */
 
-    /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
+        if segue.identifier == "pushDetail" {
+            let personDetailVC: PersonDetailedVC = segue.destination as!
+            PersonDetailedVC
+            let indexPath = self.tableView.indexPath(for: sender as!
+                UITableViewCell)
+           
+            //1st: get your person from your array based on your indexPath
+            let p = tabPerson[(indexPath?.row)!]
+            
+            //2nd: give this person to your personDetailVC
+            personDetailVC.person = p
+            
+        }
     }
-    */
+    
 
 }
